@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: white;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2%; 
+  background-color: #AB5F18;
+}
+.bgbillede{
+  width: 100%;
+  height: auto;
+}
+.artbillede{
+  width: 400px;
+  height: auto;
+  min-width: 300px;
+
+}
+.logo{
+  width: 200px;
+  height: auto;
+  cursor: pointer
+}
+.navlist{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+.navlist li{
+  display: inline-block;
+  padding:  0px 50px;
+}
+
+.navlist li a{
+  transition: 0.1s;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.navlist li a:hover{
+  color: #f4a83c;
+}
+
+.buttom{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  padding: 9px 25px;
+  background-color: #f4a83c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.1s;
+
+}
+
+.buttom:hover{
+  color: #AB5F18;
+}
+
+.sidelist{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.sidelist li{
+  display: inline-block;
+  padding:  0px 10px;
+}
+.sidelist li a{
+  transition: all 0,4s ease 0s;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+.sidelist li a:hover{
+  color: #f4a83c;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  background: white;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osw-font-smooting: grey;
+}
+.side-container{
+  margin: 2rem auto;
+  max-width: calc(100% - 33.3%);
+}
+.artikel-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 6rem;
+}
+.artikelbillede{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.artikelbillede img{
+  max-width: 100%;
+  height: auto;
+}
+.artikelkort{
+  background: whitesmoke;
+  transition: 0.3s;
+}
+.artbillede{
+  width: 500px;
+}
+.artikelkort:hover{
+  box-shadow: 0 20px 30px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+.artikelindhold{
+  padding: 2rem;
+}
+
+.artikelindhold .kategorier{
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: #f4a83c;
+  display: block;
+  text-decoration: none;
+}
+.artikelindhold .kategorier1{
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: #d97726;
+  display: block;
+  text-decoration: none;
+}
+
+.artikelindhold .korttitel{
+  margin: 1rem 0;
+  color: black;
+}
+.artikelindhold .underemne{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  margin:0; 
+}
+.container-footer{
+  max-width: 2000px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+footer{
+  background-color: #ab5F18;
+  padding: 70px 0;
+}
+.colonne{
+  width: 33.3%;
+  padding-left: 13%;
+}
+.colonne h6{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #f4a83c;
+  font-weight: 600;
+}
+.colonne ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.colonne ul li a:hover{
+  transition: 0.1s;
+  color: #f4a83c;
+}
+.insta{
+  width: 50px;
+  margin-right: 10px;
+}
+.overskriftteaser{
+  text-decoration: none;
+}
+.underoverskriftteaser{
+  text-decoration: none;
+}
+.fb {
+  width: 50px;
+}
+.artikeltitel{
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
